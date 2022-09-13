@@ -62,7 +62,7 @@ class _TodoListState extends State<TodoList> {
       appBar: new AppBar(
         title: new Text('Todo list'),
       ),
-      // map all the todos in a state and reutrn a 'TOODOItem' 
+      // map all the todos in a state and return a 'TOODOItem' 
       body: ListView(
         padding: EdgeInsets.symmetric(vertical: 8.0),
         children: _todos.map((Todo todo) {
